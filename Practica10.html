@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminador de Script</title>
+    <link rel="stylesheet" href="CSS/estilo5.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Eliminar etiquetas <code>&lt;script&gt;</code></h1>
+
+    <form id="formularioHtml">
+        <label for="entradaHtml">Introduce tu HTML:</label>
+        <textarea id="entradaHtml" rows="6"></textarea>
+        <br>
+        <button type="button" onclick="eliminarEtiquetas()">Eliminar <code>&lt;script&gt;</code></button>
+    </form>
+    <br>
+    <button onclick="location.href='index.html'">Volver</button>
+
+    <h2>Resultado:</h2>
+    <div id="resultado"></div>
+</div>
+    <script src="JS/practica10.js"></script>
+</body>
+</html>
