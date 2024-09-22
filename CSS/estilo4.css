@@ -8,13 +8,7 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
+
 form {
     background-color: white;
     padding: 20px;
@@ -46,6 +40,16 @@ button {
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
+}
+.boton{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
 }
 
 button:hover {
